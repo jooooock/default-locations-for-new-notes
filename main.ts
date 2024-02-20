@@ -8,7 +8,8 @@ import {
     PluginManifest,
     PluginSettingTab,
     Setting,
-    TFolder
+    TFolder,
+    FileManager,
 } from 'obsidian';
 import * as path from "path";
 
@@ -74,10 +75,12 @@ export default class MyPlugin extends Plugin {
         // This adds a settings tab so the user can configure various aspects of the plugin
         this.addSettingTab(new SampleSettingTab(this.app, this));
 
+        // @ts-ignore
         this.app.fileManager.registerFileParentCreator('md', this.mdFileCreator)
     }
 
     onunload() {
+        // @ts-ignore
         this.app.fileManager.unregisterFileCreator('md')
     }
 
