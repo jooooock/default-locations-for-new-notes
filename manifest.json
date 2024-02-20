@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+    "id": "default-locations-for-new-notes-plugin",
+    "name": "Default locations for new notes",
+    "version": "0.0.1",
+    "minAppVersion": "0.15.0",
+    "description": "新笔记的默认位置(使用了私有api，obsidian新版本有可能失效)",
+    "author": "jock",
+    "authorUrl": "https://github.com/jooooock",
+    "isDesktopOnly": true
 }
