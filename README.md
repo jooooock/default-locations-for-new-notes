@@ -20,12 +20,12 @@
 ![用法二](assets/usage-2.png)
 
 ### 用法三：当前目录下在子目录
-![用法三](assets/usage-3.png)
 新笔记将保持在当前目录下的`notes`子目录中
+![用法三](assets/usage-3.png)
 
 ### 用法四：根目录下的子目录
-![用法四](assets/usage-4.png)
 新笔记将保持在仓库根目录下的`notes`子目录中
+![用法四](assets/usage-4.png)
 
 
 ## 使用注意
