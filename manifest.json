@@ -1,7 +1,7 @@
 {
     "id": "default-locations-for-new-notes",
     "name": "Default locations for new notes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minAppVersion": "0.15.0",
     "description": "新笔记的默认位置(使用到了私有api，obsidian新版本有可能失效)",
     "author": "jock",

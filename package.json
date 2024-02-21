@@ -1,6 +1,6 @@
 {
     "name": "default-locations-for-new-notes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Default locations for new notes",
     "main": "main.js",
     "scripts": {
