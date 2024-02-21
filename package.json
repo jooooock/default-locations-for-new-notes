@@ -1,5 +1,5 @@
 {
-    "name": "default-locations-for-new-notes-plugin",
+    "name": "default-locations-for-new-notes",
     "version": "0.0.1",
     "description": "Default locations for new notes",
     "main": "main.js",
