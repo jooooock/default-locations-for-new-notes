@@ -1,0 +1,30 @@
+name: Release Obsidian plugin
+run-name: ${{ github.actor }} is running Release Actions 🚀
+
+on:
+    push:
+        tags:
+            - '*'
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 拉取代码
+              uses: actions/checkout@v4
+
+            - name: 设置 node 环境
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18.x'
+                  cache: npm
+
+            - name: 编译插件
+              run: |
+                  npm install
+                  npm run build
+
+            - name: 发布 Release
+              uses: ncipollo/release-action@v1
+              with:
+                  artifacts: "main.js,styles.css,manifest.json"
